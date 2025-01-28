@@ -2,14 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bg-base-300 text-base-content rounded p-10 ">
+    <footer className="footer footer-center bg-base-300 text-base-content rounded p-10 fixed bottom-0">
       {/* <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>
         <a className="link link-hover">Press kit</a>
       </nav> */}
-      <nav>
+      {/* <nav>
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg
@@ -45,11 +45,11 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-      </nav>
+      </nav> */}
       <aside>
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by ACME
-          Industries Ltd
+          Copyright © {new Date().getFullYear()} - All right reserved by
+          Parasharam Pujari
         </p>
       </aside>
     </footer>

@@ -4,7 +4,11 @@ const UserCard = ({ user }) => {
   return (
     <div className="card bg-base-300 w-96 shadow-xl">
       <figure>
-        <img src={user.photoUrl} alt="User Photo" className="my-2" />
+        <img
+          src={user.photoUrl}
+          alt="User Photo"
+          className="my-5 rounded-full object-cover w-60 h-60"
+        />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{user.firstName + " " + user.lastName}</h2>
