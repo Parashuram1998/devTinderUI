@@ -5,6 +5,7 @@ import userReducer from "./userSlice";
 import feedReducer from "./feedSlice";
 import connectionReducer from "./connectionSlice";
 import requestReceivedReducer from "./requestsReceivedSlice";
+import requestSentReducer from "./requestSentSlice";
 
 const persistConfig = { key: "root", storage };
 const persistedReducer = persistReducer(persistConfig, userReducer);
@@ -15,6 +16,7 @@ const appStore = configureStore({
     feed: feedReducer,
     connections: connectionReducer,
     requestsReceived: requestReceivedReducer,
+    requestSent: requestSentReducer,
   },
 });
 
