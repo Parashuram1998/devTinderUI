@@ -25,7 +25,11 @@ const RequestsSent = () => {
   if (!requests) return;
 
   if (requests.length === 0)
-    return <h1 className="flex justify-center my-10">No Requests Sent..</h1>;
+    return (
+      <h1 className="flex justify-center my-10 text-bold text-black text-xl">
+        No Requests Sent by you..
+      </h1>
+    );
 
   return (
     <div className="text-center my-10">
