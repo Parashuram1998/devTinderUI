@@ -43,7 +43,9 @@ const RequestsReceived = () => {
 
   if (requests.length === 0)
     return (
-      <h1 className="flex justify-center my-10">No Requests Received..</h1>
+      <h1 className="flex justify-center my-10 text-bold text-black text-3xl">
+        No Requests Received..
+      </h1>
     );
 
   return (
