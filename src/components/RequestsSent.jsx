@@ -27,13 +27,13 @@ const RequestsSent = () => {
   if (requests.length === 0)
     return (
       <h1 className="flex justify-center my-10 text-bold text-black text-xl">
-        No Requests Sent by you..
+        No Requests Sent..
       </h1>
     );
 
   return (
     <div className="text-center my-10">
-      <h1 className="text-bold text-black text-3xl">Requests Sent</h1>
+      <h1 className="text-bold text-black text-2xl">Requests Sent</h1>
 
       {requests.map((request) => {
         const { _id, firstName, lastName, photoUrl, age, gender, about } =

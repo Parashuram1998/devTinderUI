@@ -29,7 +29,7 @@ const Feed = () => {
 
   if (feedData.length <= 0)
     return (
-      <h1 className="flex justify-center my-10 text-bold text-black text-3xl">
+      <h1 className="flex justify-center my-10 text-bold text-black text-xl">
         No New Users Found!!
       </h1>
     );
